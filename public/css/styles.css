@@ -1,0 +1,30 @@
+ .imagen-collage {
+  background-image: linear-gradient(
+      rgba(0,0,0,0.3),rgba(0,0,0,0.3)
+  ), url(../images/collage.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+}
+
+
+
+.fcc-btn {
+  display: flex;
+  justify-content: center;
+  background-color: #199319;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  
+}
+.fcc-btn:hover {
+  background-color: #95ffb8;
+  color: #000;
+}
