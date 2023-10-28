@@ -17,7 +17,7 @@ class ProductsTableSeeder extends Seeder
         //BOLSOS DAMAS
         {
             Product::create([
-                'name' => 'Bolso Dama1',
+                'name' => 'Bolso dama clasico',
                 'slug' => 'bolsosdama-1',
                 'details' => 'Hermoso bolso para dama en cuero',
                 'price' => rand(100000, 300000),
@@ -30,7 +30,7 @@ class ProductsTableSeeder extends Seeder
         }
         {
             Product::create([
-                'name' => 'Bolso Dama2',
+                'name' => 'Bolso Dama vintage',
                 'slug' => 'bolsosdama-2',
                 'details' => 'Hermoso bolso para dama en cuero',
                 'price' => rand(100000, 300000),
@@ -42,7 +42,7 @@ class ProductsTableSeeder extends Seeder
             ]);
         }{
             Product::create([
-                'name' => 'Bolso Dama3',
+                'name' => 'Bolso Dama manos libres',
                 'slug' => 'bolsosdama-3',
                 'details' => 'Hermoso bolso para dama en cuero',
                 'price' => rand(100000, 300000),
@@ -56,7 +56,7 @@ class ProductsTableSeeder extends Seeder
         //BILLETERAS CABALLEROS
         {
             Product::create([
-                'name' => 'Billetera Caballero1',
+                'name' => 'Billetera azul con diseño',
                 'slug' => 'billeteracaballero-1',
                 'details' => 'Diferentes colores y terminados, 100% cuero autenticado',
                 'price' => rand(80000, 200000),
@@ -69,7 +69,7 @@ class ProductsTableSeeder extends Seeder
         }
         {
             Product::create([
-                'name' => 'Billetera Caballero2',
+                'name' => 'Billetera Caballero Clasica',
                 'slug' => 'billeteracaballero-2',
                 'details' => 'Diferentes colores y terminados, 100% cuero autenticado',
                 'price' => rand(80000, 200000),
@@ -82,7 +82,7 @@ class ProductsTableSeeder extends Seeder
         }
         {
             Product::create([
-                'name' => 'Billetera Caballero3',
+                'name' => 'Billetera con tarjetero',
                 'slug' => 'billeteracaballero-3',
                 'details' => 'Diferentes colores y terminados, 100% cuero autenticado',
                 'price' => rand(80000, 200000),
@@ -96,7 +96,7 @@ class ProductsTableSeeder extends Seeder
         //MALETAS
         {
             Product::create([
-                'name' => 'Maleta1',
+                'name' => 'Maleta negra - dos bolsillos',
                 'slug' => 'maleta-1',
                 'details' => 'Hermosas maletas para todo tipo',
                 'price' => rand(100000, 350000),
@@ -109,7 +109,7 @@ class ProductsTableSeeder extends Seeder
         }
         {
             Product::create([
-                'name' => 'Maleta2',
+                'name' => 'Maleta ejecutiva',
                 'slug' => 'maleta-2',
                 'details' => 'Hermosas maletas para todo tipo',
                 'price' => rand(100000, 350000),
@@ -122,7 +122,7 @@ class ProductsTableSeeder extends Seeder
         }
         {
             Product::create([
-                'name' => 'Maleta3',
+                'name' => 'Maleta multiproposito',
                 'slug' => 'maleta-3',
                 'details' => 'Hermosas maletas para todo tipo',
                 'price' => rand(100000, 350000),
@@ -136,7 +136,7 @@ class ProductsTableSeeder extends Seeder
         //GORRAS
         {
             Product::create([
-                'name' => 'Gorra1',
+                'name' => 'Gorra negra con diseño',
                 'slug' => 'gorra-1',
                 'details' => 'Gorra en diferentes colores y estilos',
                 'price' => rand(100000, 150000),
@@ -149,7 +149,7 @@ class ProductsTableSeeder extends Seeder
         }
         {
             Product::create([
-                'name' => 'Gorra2',
+                'name' => 'Gorra negra clasica',
                 'slug' => 'gorra-2',
                 'details' => 'Gorra en diferentes colores y estilos',
                 'price' => rand(100000, 150000),
@@ -162,7 +162,7 @@ class ProductsTableSeeder extends Seeder
         }
         {
             Product::create([
-                'name' => 'Gorra3',
+                'name' => 'Gorra roja',
                 'slug' => 'gorra-3',
                 'details' => 'Gorra en diferentes colores y estilos',
                 'price' => rand(100000, 150000),
@@ -176,7 +176,7 @@ class ProductsTableSeeder extends Seeder
         //CORREAS
         {
             Product::create([
-                'name' => 'Correa1',
+                'name' => 'Correa negra',
                 'slug' => 'correa-4',
                 'details' => 'correas diferentes colores y estilos',
                 'price' => rand(50000, 100000),
@@ -189,7 +189,7 @@ class ProductsTableSeeder extends Seeder
         }
         {
             Product::create([
-                'name' => 'Correa2',
+                'name' => 'Correa cafe MH',
                 'slug' => 'correa-2',
                 'details' => 'correas diferentes colores y estilos',
                 'price' => rand(50000, 100000),
@@ -202,7 +202,7 @@ class ProductsTableSeeder extends Seeder
         }
         {
             Product::create([
-                'name' => 'Correa3',
+                'name' => 'Correa tejida',
                 'slug' => 'correa-3',
                 'details' => 'correas diferentes colores y estilos',
                 'price' => rand(50000, 100000),
